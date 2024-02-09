@@ -1,0 +1,67 @@
+/* --------------Page d'Accueil--------------- */
+.logo img{
+    width: 30%;
+}
+.trois-img img{
+    width: 100%;
+}
+/* ---------les images de grands taille-------- */
+.img-yeux img{
+    width: 100%;
+}
+.vr{
+    border-left: 2px solid rgb(255, 255, 255);
+}
+
+/* --------------Page A propos--------------- */
+
+/* img-apropos{
+    width: 100%;
+} */
+/* .hand{
+    background: url('../img/s1b3.jpeg');
+
+} */
+.para-aPropos{
+    width: 90%;
+    align-content: center;
+    margin-top: 15%;
+    text-align: justify;
+    font-size: x-small;
+}
+.titre-aPropos{
+    align-content: center;
+    margin-top: 10%;
+}
+.bgimg{
+    background-image: url("../img/s2b2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
+    /* position: absolute; */
+    text-align: justify;
+    /* position: fixed; */
+}
+h3{
+    text-align: center;
+}
+.troisPara p{
+    font-size: x-small;
+    /* position: fixed; */
+}
+.imgRealisation img{
+    width: 100%;
+}
+/* --------------Page contact--------------- */
+.img-contact{
+    background-image: url("../img/s1b3.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
+    font-size: x-small;
+    text-shadow: 1px 2px grey;
+}
+.img-contact h1{
+    font-size: 50px;
+    text-shadow: 1px 2px grey;
+}
