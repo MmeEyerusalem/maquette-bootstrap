@@ -16,7 +16,7 @@
 
 <body>
     <!----------------------- Header -------------------------------------->
-    <nav class="navbar navbar-expand-lg bg-black ">
+    <nav class="navbar navbar-expand-lg bg-black headerContact ">
         <div class="container-fluid ">
             <div class="logo">
                 <img src="./assets/img/s1b1-1.jpeg" alt="logo">
@@ -50,70 +50,54 @@
     </section>
 
     <section class="container-fluid">
-        <div class="row bg-dark text-white mb-3">
-            <form>
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email">
+        <div class="row bg-dark.bg-gradient text-white d-flex justify-content-center bgContact">
+            <form class="col-6 p-3 bg-black formContact">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control bg-black text-white border-top-0 border-start-0 border-end-0 border-dark" id="email" name="email">
+                </div>
                 <br>
-                <label for="subjet">Subjet</label>
-                <input type="text" id="sujet" name="sujet">
+                <div class="mb-3">
+                    <label for="subjet" class="form-label">Subjet</label>
+                    <input type="text" class="form-control bg-black text-white border-top-0 border-start-0 border-end-0 border-dark" id="sujet" name="sujet">
+                </div>
                 <br>
-                <label for="votreMessage">Votre message</label>
-                <input type="text" id="votreMessage" name="votreMessage">
+                <div class="mb-3 ">
+                    <label for="votreMessage" class="form-label">Votre message</label>
+                    <textarea type="text" class="form-control bg-black text-white border-top-0 border-start-0 border-end-0 border-dark"  id="votreMessage" name="votreMessage"> </textarea>
+                </div>
                 <br>
-                <button>Envoyer</button>
-                <button>Effacer</button>
+                <div class="d-flex justify-content-around p-3 ">
+                   <button class="bg-dark text-white text-center px-5 border-0">Envoyer</button>
+                   <button class="bg-dark text-white px-5 border-0">Effacer</button>
+                </div>
             </form>
         </div>
-
-        <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-
     </section>
 
-
-
-
-
-
-
     <!----------------------- Footer -------------------------------------->
-    <section class="bg-dark d-flex justify-content-around p-3 px-5">
+    <section class="bg-dark border-top border-dark d-flex justify-content-around p-3 px-5 footerContact">
         <div>
             <nav class="nav flex-column lh-sm ">
-                <a class="nav-link active text-white" aria-current="page" href="#">ACCUEIL</a>
-                <a class="nav-link text-white" href="#">A PROPOS</a>
-                <a class="nav-link text-white" href="#">CONTACT</a>
+                <a class="nav-link text-white" href="./index.html">ACCUEIL</a>
+                <a class="nav-link text-white" href="./a propos.html">A PROPOS</a>
+                <a class="nav-link text-white" href="./contact.html">CONTACT</a>
             </nav>
         </div>
         <div class="vr"></div>
         <div>
             <nav class="nav flex-column lh-sm ">
-                <a class="nav-link active text-white" aria-current="page" href="#">ACCUEIL</a>
-                <a class="nav-link text-white" href="#">A PROPOS</a>
-                <a class="nav-link text-white" href="#">CONTACT</a>
+                <a class="nav-link text-white" href="./index.html">ACCUEIL</a>
+                <a class="nav-link text-white" href="./a propos.html">A PROPOS</a>
+                <a class="nav-link text-white" href="./contact.html">CONTACT</a>
             </nav>
         </div>
         <div class="vr"></div>
         <div>
             <nav class="nav flex-column lh-sm ">
-                <a class="nav-link active text-white" aria-current="page" href="#">ACCUEIL</a>
-                <a class="nav-link text-white" href="#">A PROPOS</a>
-                <a class="nav-link text-white" href="#">CONTACT</a>
+                <a class="nav-link text-white" href="./index.html">ACCUEIL</a>
+                <a class="nav-link text-white" href="./a propos.html">A PROPOS</a>
+                <a class="nav-link text-white" href="./contact.html">CONTACT</a>
             </nav>
         </div>
     </section>
@@ -144,7 +128,7 @@
 
     <script src="https://kit.fontawesome.com/c194d650bf.js" crossorigin="anonymous"></script>
 
-    <script src="script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

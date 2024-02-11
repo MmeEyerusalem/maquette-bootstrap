@@ -9,19 +9,17 @@
 .img-yeux img{
     width: 100%;
 }
+/* .body1{
+    
+    justify-content: center;
+} */
 .vr{
     border-left: 2px solid rgb(255, 255, 255);
 }
-
+.footerIndex{
+    font-size: small;
+}
 /* --------------Page A propos--------------- */
-
-/* img-apropos{
-    width: 100%;
-} */
-/* .hand{
-    background: url('../img/s1b3.jpeg');
-
-} */
 .para-aPropos{
     width: 90%;
     align-content: center;
@@ -40,7 +38,9 @@
     background-position-y: center;
     /* position: absolute; */
     text-align: justify;
-    /* position: fixed; */
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 h3{
     text-align: center;
@@ -51,6 +51,12 @@ h3{
 }
 .imgRealisation img{
     width: 100%;
+}
+.headerApropos{
+    font-size: small;
+}
+.footerApropos{
+    font-size: x-small;
 }
 /* --------------Page contact--------------- */
 .img-contact{
@@ -64,4 +70,17 @@ h3{
 .img-contact h1{
     font-size: 50px;
     text-shadow: 1px 2px grey;
+}
+
+.formContact{
+    font-size: small;
+}
+.bgContact{
+    background-color: #212529f8;
+}
+.headerContact{
+    font-size: small;
+}
+.footerContact{
+    font-size: x-small;
 }
